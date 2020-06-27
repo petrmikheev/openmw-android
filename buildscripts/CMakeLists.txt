@@ -444,8 +444,9 @@ set(OPENMW_PATCH
 ExternalProject_Add(openmw
 	DEPENDS boost openal osg mygui ffmpeg sdl2 bullet
 
-	URL https://github.com/OpenMW/openmw/archive/${OPENMW_VERSION}.tar.gz
-	URL_HASH ${OPENMW_HASH}
+	#URL https://github.com/OpenMW/openmw/archive/${OPENMW_VERSION}.tar.gz
+	#URL_HASH ${OPENMW_HASH}
+	URL https://gitlab.com/ptmikheev/openmw/-/archive/experimental/openmw-experimental.tar.gz
 	DOWNLOAD_DIR ${download_dir}
 
 	PATCH_COMMAND ${OPENMW_PATCH}
