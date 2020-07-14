@@ -446,7 +446,7 @@ ExternalProject_Add(openmw
 
 	#URL https://github.com/OpenMW/openmw/archive/${OPENMW_VERSION}.tar.gz
 	#URL_HASH ${OPENMW_HASH}
-	URL https://gitlab.com/ptmikheev/openmw/-/archive/experimental/openmw-experimental.tar.gz
+	URL https://gitlab.com/ptmikheev/openmw/-/archive/experimental/openmw-preview_mode2.tar.gz
 	DOWNLOAD_DIR ${download_dir}
 
 	PATCH_COMMAND ${OPENMW_PATCH}
